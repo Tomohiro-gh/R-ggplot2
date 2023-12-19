@@ -2,7 +2,24 @@
 
 #### ggplot2 graph 
 
-
+## Theme settings:
+```r
+myTHEME <- theme(
+  plot.title = element_text(hjust=0.5, size=24, face="bold"),
+  plot.subtitle = element_text(size = 24, hjust = 0.5),
+  axis.title.x = element_text(hjust=0.5, size=24, face="bold"),
+  axis.title.y = element_text(hjust=0.5, size= 24, face="bold"),
+  axis.text.x = element_text(hjust=0.5, colour = "black", size= 24, face="bold"),
+  axis.text.y = element_text(hjust=0.5, colour = "black", size= 24, face="bold"),
+  axis.line=element_line(colour = "black", linewidth=1.0),
+  axis.ticks=element_line(colour = "black", linewidth = 1.0),
+  axis.ticks.length = unit(4, "mm"),
+  panel.grid.major = element_blank(), 
+  panel.grid.minor = element_blank(),
+  panel.background = element_blank(), 
+  text = element_text(size = 24, family="Arial"),
+  legend.position = 'none')
+```
 
 ## 軸目盛りの長さの制御 (内向きも含む)
 参考) https://qiita.com/kattsu2003/items/266e1a0709961f5ba81f
