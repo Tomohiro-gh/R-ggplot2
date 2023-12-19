@@ -27,5 +27,4 @@ theme内の unitの長さで変更可能
 ```r
  theme(axis.ticks.length = unit(4, "mm"))
  theme(axis.ticks.length = unit(-2, "mm")) #内向き
-
 ```
