@@ -28,3 +28,10 @@ theme内の unitの長さで変更可能
  theme(axis.ticks.length = unit(4, "mm"))
  theme(axis.ticks.length = unit(-2, "mm")) #内向き
 ```
+
+
+## Changing fonts in ggplot2
+themeの中にfamilyを指定すれば良い．　他には， "Arial" や  "Comic Sans MS"など
+```r
+theme(family="Serif")
+```
