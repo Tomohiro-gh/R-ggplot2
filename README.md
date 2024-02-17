@@ -3,6 +3,7 @@
 #### ggplot2 graph 
 
 ## Theme settings:
+https://ggplot2.tidyverse.org/reference/theme.html
 ```r
 myTHEME <- theme(
   plot.title = element_text(hjust=0.5, size=24, face="bold"),
