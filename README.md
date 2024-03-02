@@ -20,6 +20,10 @@ myTHEME <- theme(
   panel.background = element_blank(), 
   text = element_text(size = 24, family="Arial"),
   legend.position = 'none')
+
+
+## Pattern2
+
 ```
 
 ## 軸目盛りの長さの制御 (内向きも含む)
